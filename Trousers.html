@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trousers Collection | Nabel's Luxe</title>
+  <!-- Google Fonts: Cinzel & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header class="navbar">
+    <a href="index.html" class="logo">NABEL'S Luxe</a>
+    <a href="index.html" class="btn-primary">← Back to Home</a>
+  </header>
+
+  <!-- Main Collection Content -->
+  <main class="collection-page">
+    <div class="collection-header">
+      <h1>TROUSERS COLLECTION</h1>
+      <p class="subtitle">Bubu Trouser & High-Waisted Bubu Trousers</p>
+    </div>
+
+    <div class="product-grid">
+      
+      <!-- Trouser Item 1 (With Slider) -->
+      <div class="product-card">
+        <div class="slider-container">
+          <button class="prev-btn" onclick="moveSlide(this, -1)">&#10094;</button>
+          <div class="slider-track">
+            <img src="Images/Bubu Trouser 1.jpg" alt="Bubu Trouser">
+            <img src="Images/Bubu Trouser 1.1.jpg" alt="Bubu Trouser Details">
+          </div>
+          <button class="next-btn" onclick="moveSlide(this, 1)">&#10095;</button>
+        </div>
+        <h3>Bubu Trouser</h3>
+        <p class="price">₦10,000</p>
+        <a href="https://wa.me/2348162162964?text=Hi%20Nabel's%20Luxe,%20I%20want%20to%20order%20the%20Bubu%20Trouser" class="buy-btn" target="_blank">Order via WhatsApp</a>
+      </div>
+
+      <!-- Trouser Item 2 -->
+      <div class="product-card">
+        <div class="img-box">
+          <img src="Images/Bubu Trouser 2.jpg" alt="High-Waisted Bubu Trouser">
+        </div>
+        <h3>High-Waisted Bubu Trouser</h3>
+        <p class="price">₦14,000</p>
+        <a href="https://wa.me/2348162162964?text=Hi%20Nabel's%20Luxe,%20I%20want%20to%20order%20the%20High-Waisted%20Bubu%20Trouser" class="buy-btn" target="_blank">Order via WhatsApp</a>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <div class="footer-container">
+      <div class="footer-col">
+        <h4>NABEL'S LUXE</h4>
+        <p>Ready To Wear Ankara Clothing & Fine Jewelry</p>
+      </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Nabel's Luxe. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

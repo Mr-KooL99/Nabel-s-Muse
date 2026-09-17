@@ -14,3 +14,13 @@ document.querySelectorAll('.nav-links a').forEach(link => {
     navLinks.classList.remove('nav-active');
   });
 });
+function moveSlide(button, direction) {
+  const container = button.parentElement;
+  const track = container.querySelector('.slider-track');
+  const slideWidth = track.clientWidth;
+  
+  track.scrollBy({
+    left: direction * slideWidth,
+    behavior: 'smooth'
+  });
+}
